@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ConversationHandler, filters, ContextTypes
 from bot_input import start_setproduct, first_url, second_url, budget, cancel, check_prices, PRODUCT1, PRODUCT2, BUDGET
 
-TOKEN = "6406198312:AAHL6FYxlybcM594uvQG3tBqipnRIPYEmH4"
+TOKEN = "Add Your Token Here"
 
 # Command handler for the /start command
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
